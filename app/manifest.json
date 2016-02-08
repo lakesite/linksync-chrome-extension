@@ -11,6 +11,7 @@
   },
   "permissions": [
     "activeTab",
+    "http://localhost:5979/",
     "https://ajax.googleapis.com/"
   ]
 }

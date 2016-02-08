@@ -7,11 +7,11 @@
         font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
         font-size: 100%;
       }
-      #status {
-        /* avoid an excessively wide status text */
+      #options {
         white-space: pre;
         text-overflow: ellipsis;
         overflow: hidden;
+        width: 400px;
         max-width: 400px;
       }
     </style>
@@ -20,6 +20,12 @@
   <body>
     <!-- Link already added, then edit -->
     <!-- New link, add tags and description -->
-    <div id="options"></div>
+    <div id="options">
+      <form method="post" id="main">
+        Link: <input type="text" id="url" name="url" value=""></input>
+        Description: <input type="text" id="description" name="description" value=""></input>
+        Tags: <input type="text" id="tags" name="tags" value=""></input>
+      </form>
+    </div>
   </body>
 </html>

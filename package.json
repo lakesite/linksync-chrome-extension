@@ -1,0 +1,17 @@
+{
+  "name": "linksync-chrome-extension",
+  "productName": "LinkSync Chrome Extension",
+  "identifier": "net.lakesite.linksync-chrome-extension",
+  "description": "Chrome extension for LinkSync",
+  "version": "0.0.1",
+  "author": "Andrew Duncan",
+  "copyright": "Copyright 2016 Andrew Duncan",
+  "license": "GPL-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lakesite/linksync-chrome-extension.git"
+  },
+  "dependencies": {
+    "bootstrap": "~3.3.6"
+  }
+}
