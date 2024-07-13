@@ -16,7 +16,7 @@
     "url": "git+https://github.com/lakesite/linksync-chrome-extension.git"
   },
   "dependencies": {
-    "bootstrap": "~3.3.6",
+    "bootstrap": "~5.0.0",
     "jquery": "~2.2.0"
   },
   "devDependencies": {
